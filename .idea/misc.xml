@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_contact.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_contact2.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_createmail.xml" value="0.25" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.2609375" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_email.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_forgetmail.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_item_avtivity.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_loginemail.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1716485507246377" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_map.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_message.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_optverification.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_otpnotificationone.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_plash_screen.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_tp.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_tp2.xml" value="0.275" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_user.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/MyApplication/app/src/main/res/layout/layoutdata.xml" value="0.275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

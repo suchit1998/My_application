@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.suchit.otpapp">
+    <!-- package="com.suchit.myapplication"> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".ItemAvtivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginemailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreatemailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.Optverification"
+            android:exported="false" />
+        <activity
+            android:name=".Otpnotificationone"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Plash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tp_Activity"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboardac"
+    tools:context=".Dashboard_activity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_marginLeft="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dashboardfirst"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="75dp"
+            android:text="DASHBOARD"
+            android:textColor="#F10958" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/dashboardfirst"
+            android:text="ITEM"
+            android:textColor="#FF5722" />
+
+
+        <ImageView
+            android:id="@+id/imagep"
+
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/pr_logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:id="@+id/contact"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:src="@drawable/contact_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+
+                        android:text="CONTACT"
+                        android:textSize="17dp"
+                        android:textColor="#CA0FEA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:id="@+id/message"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:src="@drawable/contact_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+
+                        android:text="MESSAGE"
+                        android:textSize="17dp"
+                        android:textColor="#CA0FEA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:id="@+id/mail"
+
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:src="@drawable/contact_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+
+                        android:text="MAIL"
+                        android:textSize="17dp"
+                        android:textColor="#CA0FEA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <LinearLayout
+                    android:id="@+id/map"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:src="@drawable/contact_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+
+                        android:text="MAP"
+                        android:textSize="17dp"
+                        android:textColor="#CA0FEA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp">
+
+
+
+                <LinearLayout
+                    android:id="@+id/contact2"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:src="@drawable/contact_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+
+                        android:text="CONTACT"
+                        android:textSize="17dp"
+                        android:textColor="#CA0FEA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp">
+
+
+
+                <LinearLayout
+                    android:id="@+id/report"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:layout_width="180dp"
+                    android:layout_height="150dp">
+                    <ImageView
+                        android:src="@drawable/contact_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"/>
+                    <TextView
+
+                        android:text="REPORT"
+                        android:textSize="17dp"
+                        android:textColor="#CA0FEA"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+

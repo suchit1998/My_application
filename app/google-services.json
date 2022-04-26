@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "910596765400",
+    "project_id": "otpverfication-d6243",
+    "storage_bucket": "otpverfication-d6243.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910596765400:android:a1f96b49e1dc23f94d49ad",
+        "android_client_info": {
+          "package_name": "com.suchit.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910596765400-2gfbkobjo1iegn16fb0uth1mdngbis8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtSmFaVg8aD1JRCR0gRQp33HtUkN_GwgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910596765400-2gfbkobjo1iegn16fb0uth1mdngbis8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910596765400:android:51e34dd345fdf3414d49ad",
+        "android_client_info": {
+          "package_name": "com.suchit.otpapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910596765400-5f5p4mjhpor05vko3ofvraerao3qrevj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.suchit.otpapp",
+            "certificate_hash": "59fe10fcee0ccb90ec117b2f8b7c35523b4d3634"
+          }
+        },
+        {
+          "client_id": "910596765400-2gfbkobjo1iegn16fb0uth1mdngbis8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtSmFaVg8aD1JRCR0gRQp33HtUkN_GwgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910596765400-2gfbkobjo1iegn16fb0uth1mdngbis8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
